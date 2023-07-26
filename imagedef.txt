@@ -1,0 +1,9 @@
+az sig image-definition create \
+ --resource-group 'marketplace-vm-offer' \
+ --gallery-name 'marketplace_sig' \
+ --gallery-image-definition 'marketplace-definition' \
+ --publisher 'contoso' \
+ --offer 'offer1' \
+ --sku 'standard' \
+ --os-type Linux \
+ --os-state generalized
